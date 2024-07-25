@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
 const uri = 'mongodb://localhost:27017'; // MongoDB 서버 URI
-const dbName = 'gps'; // 연결할 데이터베이스 이름
+const dbName = 'gps2'; // 연결할 데이터베이스 이름, gps는 gu, gps2는 경계(circle, square)
 
 const client = new MongoClient(uri);
 
